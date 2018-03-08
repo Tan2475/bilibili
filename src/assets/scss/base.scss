@@ -1,0 +1,10 @@
+@mixin size($h,$w) {
+    width: $w;
+    height: $h;
+  }
+
+  @mixin flexStyle($j,$a){
+    display:flex;
+    justify-content:$j;
+    align-items:$a;
+  }
