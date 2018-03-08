@@ -1,21 +1,25 @@
-# np
+# bilibili
 
-> A Vue.js project
+> 一个模仿b张首页的Vue项目
 
-## Build Setup
+## 安装
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 启动调试模式（默认热更新） localhost:8080
 npm run dev
 
-# build for production with minification
+# 生成项目文件
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+依托Vue-cli构建的环境进行开发，使用默认webpack配置。
+
+额外安装了Vue-router、axios、以及vuedraggable，分别用于页面路由（目前未使用）、读取本地json模拟后端接口（最近添加未完全使用）、拖拽效果用来模拟b站侧边栏效果（暂未使用）
+
+页面未完善，后续更新。。。。
+
+
